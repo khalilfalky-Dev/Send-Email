@@ -1,0 +1,5 @@
+email_sender/
+│── email_sender.py        # السكربت الرئيسي
+│── requirements.txt       # المكتبات المطلوبة
+│── README.md              # شرح الأداة
+│── .gitignore             # تجاهل الملفات الغير مهمة
