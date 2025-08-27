@@ -1,0 +1,24 @@
+# 1️⃣ انتقل إلى مجلد المشروع
+cd /home/isecurt1y/Desktop/khalil-Send-Email.py   # عدّل المسار حسب مكان المشروع عندك
+
+# 2️⃣ إنشاء بيئة افتراضية (اختياري لكن مستحسن)
+python3 -m venv venv
+source venv/bin/activate
+
+# 3️⃣ تثبيت المكتبات المطلوبة
+pip install -r requirements.txt
+
+# 4️⃣ تهيئة Git للمشروع
+git init
+git add .
+git commit -m "Initial commit: SMTP Email Sender GUI"
+git branch -M main
+
+# 5️⃣ ربط المشروع مع الريبو على GitHub
+# استبدل USERNAME باسم حسابك
+git remote add origin https://github.com/USERNAME/email-sender.git
+
+# 6️⃣ رفع المشروع إلى GitHub
+git push -u origin main
+
+# ✅ الآن المشروع موجود على GitHub
